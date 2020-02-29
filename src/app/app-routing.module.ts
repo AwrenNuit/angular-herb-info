@@ -10,11 +10,11 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full'},
-  { path: '/home', component: HomeComponent },
-  { path: '/about', component: AboutComponent },
-  { path: '/contact', component: ContactComponent },
-  { path: '/products', component: ProductsComponent },
-  { path: '/product-detail', component: ProductDetailComponent },
+  { path: 'home', component: HomeComponent },
+  { path: 'about', component: AboutComponent },
+  { path: 'contact', component: ContactComponent },
+  { path: 'products', component: ProductsComponent },
+  { path: 'product-detail/:id', component: ProductDetailComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
 
