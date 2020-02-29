@@ -1,0 +1,29 @@
+.lost-btn {
+  background-color: #a50000;
+  padding: 5px;
+  border: 1px solid #580000;
+  color: yellow;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.lost-btn:hover {
+  background-color: #d10000;
+}
+
+.lost-btn:active {
+  background-color: #790000;
+}
+
+.lost-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 4em;
+  color: white;
+  background-color: #2d2b3d;
+  padding: 40px;
+  box-shadow: 5px 5px 10px black;
+}
