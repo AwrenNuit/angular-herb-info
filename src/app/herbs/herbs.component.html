@@ -1,1 +1,11 @@
-<p>herbs works!</p>
+<div class="row">
+  <div class="col" *ngFor="let herb of Herbs">
+    <div class="herb-card">
+      <div class="herb-content">
+        <h3>{{herb.name}}</h3>
+        <p>{{herb.description}}</p>
+        <a [routerLink]="['/herb-details/', herb.name]" class="herb-btn">Learn More</a>
+      </div>
+    </div>
+  </div>
+</div>
