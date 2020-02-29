@@ -1,0 +1,10 @@
+.herb-card {
+  height: 250px;
+  width: 200px;
+  background-color: lightgoldenrodyellow;
+  border: 10px solid rgb(129, 81, 36);
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 5px 5px 10px grey;
+  float: left;
+}
