@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: '/about', component: AboutComponent },
   { path: '/contact', component: ContactComponent },
   { path: '/products', component: ProductsComponent },
-  { path: '/product-detail/:id', component: ProductDetailComponent },
+  { path: '/product-detail', component: ProductDetailComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
 
